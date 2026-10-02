@@ -10,3 +10,4 @@ env/
 
 .streamlit/secrets.toml
 .DS_Store
+faiss_index/
