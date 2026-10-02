@@ -52,32 +52,13 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-Install all dependencies (no requirements.txt needed!):
+Install the dependencies:
 
 ```bash
-# Core framework
-pip install streamlit==1.31.0
-
-# LangChain stack
-pip install langchain==0.1.9
-pip install langchain-community==0.0.24
-pip install langchain-google-genai==0.0.9
-
-# Vector store and embeddings
-pip install faiss-cpu==1.7.4
-pip install sentence-transformers==2.3.1
-
-# PDF processing
-pip install PyPDF2==3.0.1
-
-# Environment management
-pip install python-dotenv==1.0.1
+pip install -r requirements.txt
 ```
 
-**Optional - Install everything at once:**
-```bash
-pip install streamlit langchain langchain-community langchain-google-genai faiss-cpu sentence-transformers PyPDF2 python-dotenv
-```
+Then copy `.env.example` to `.env` and add your key.
 
 ### Configuration
 
